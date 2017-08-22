@@ -1,0 +1,73 @@
+body{
+	font-family: 'Lobster', cursive;
+}
+
+#name{
+	border: 3px solid red;
+	display: block;
+	text-align: center;
+}
+
+#tagLine{
+	border: 3px solid orange;
+	text-align: center;
+}
+
+img.resize {
+  width: 100px;
+  height: 100px;
+}
+
+#pizzaMan{
+	border: 3px solid black;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#topMenu{
+	border: 3px solid blue;
+}
+
+.guide{
+	border: 3px solid green;
+}
+
+#today{
+	border: 3px solid purple;
+}
+
+/*.content{
+	border: 3px solid blue;
+}*/
+
+#subscribe{
+	border: 3px solid black;
+}
+
+#deal{
+	border: 3px solid blue;
+}
+
+#visit{
+	border: 3px solid pink;
+}
+
+#addy{
+	border: 3px solid purple;
+}
+
+#street{
+	border: 3px solid red;
+}
+
+#map{
+	border: 3px solid black;
+}
+
+#credit{
+	border: 3px solid yellow;
+}
+
+#copyright{
+	border: 3px solid blue;
+}
