@@ -12,7 +12,7 @@ li {
 }
 
 .resize {
-		-webkit-animation: rotation 7s /*infinite linear*/;
+		-webkit-animation: rotation 10s /*infinite linear*/;
 }
 
 @-webkit-keyframes rotation {
@@ -33,7 +33,7 @@ li {
 	text-align: center;
 	font-size: 70px;
 	padding: 1px;
-	margin: 10px 200px 1px 200px;
+	margin: 70px 200px 50px 200px;
   	-webkit-box-sizing: content-box;
   	-moz-box-sizing: content-box;
   	box-sizing: content-box;
@@ -101,9 +101,13 @@ a:hover{
 }
 
 
-/*.guide{
-	border: 3px solid green;
-}*/
+.sectionTitle{
+	transition: all .2s ease-in-out;
+}
+
+.sectionTitle:hover{
+	transform: scale(1.1);
+}
 
 #today{
 	border-top: 3px solid purple;
@@ -126,9 +130,9 @@ a:hover{
 	border-radius: 10px;
 /*	font-size: 40px;*/
 	padding: 1px 100px 1px 100px;
-	padding: 1px;
-	margin: 10px 500px 1px 500px;
+	margin: 10px 500px 25px 500px;
 	text-align: center;
+	font-size: 75px;
 }
 
 #special{
@@ -143,6 +147,24 @@ a:hover{
 #menu{
 	padding-top: 100px;
 	text-align: center;
+	margin-bottom: 100px;
+}
+
+.pizza{
+	border: 3px solid black;
+	padding-bottom: 1px;
+	border-radius: 80px;
+	margin-bottom: 15px;
+	margin-right: 22%;
+	margin-left: 22%;
+}
+
+.pizzaName{
+	transition: all .2s ease-in-out;
+}
+
+.pizzaName:hover{
+	transform: scale(1.4);
 }
 
 #subscribe{
