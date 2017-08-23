@@ -12,7 +12,7 @@ li {
 }
 
 .resize {
-		-webkit-animation: rotation 8s infinite linear;
+		-webkit-animation: rotation 7s /*infinite linear*/;
 }
 
 @-webkit-keyframes rotation {
@@ -52,19 +52,19 @@ li {
 #name:hover {
 	opacity: 1;
   	text-shadow: -3px 0 0 rgb(217,31,38) , -6px 0 0 rgb(226,91,14) , -9px 0 0 rgb(245,221,8) , -12px 0 0 rgb(5,148,68) , -15px 0 0 rgb(2,135,206) , -18px 0 0 rgb(4,77,145) , -21px 0 0 rgb(42,21,113) ;
-  	-webkit-transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  	-moz-transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  	-o-transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  	transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  	-webkit-transition: all 1200ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  	-moz-transition: all 1200ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  	-o-transition: all 1200ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  	transition: all 1200ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 #tagLine{
-	border-top: 3px solid black;
+	border-top: 3px solid red;
 	border-radius: 10px;
 	text-align: center;
 	font-size: 40px;
 	margin: 10px 450px 1px 450px;
-	border-bottom: 3px solid black;
+	border-bottom: 3px solid red;
 /*	border-left: 3px solid orange;*/
 }
 
@@ -78,12 +78,24 @@ img.resize {
 /*  border: 3px solid black;*/
 }
 
+a:link{
+	text-decoration: none;
+}
+
+a:hover{
+	color: red;
+}
+
 #topMenu{
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	border-radius: 10px;
 /*	border: 3px solid blue;*/
 /*	display: inline-block;*/
-	margin-top: -500px;
-	margin-bottom: 150px;
-	padding: 100px 30px 50px 10px;
+	margin-top: -350px;
+	margin-bottom: 70px;
+	margin-right: 1200px;
+	padding: 10px 1px 10px 10px;
 	vertical-align: top;
 /*	border-left: 3px solid black;*/
 }
@@ -94,23 +106,32 @@ img.resize {
 }*/
 
 #today{
-	border: 3px solid yellow;
-	padding: 10px 1px 1px 1px;
-}
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	border-radius: 10px;
+/*	border: 3px solid blue;*/
+/*	display: inline-block;*/
+	margin-top: -300px;
+	margin-bottom: 70px;
+	margin-right: 1px;
+	margin-left: 1000px;
+	padding: 1px 1px 1px 1px;
+	vertical-align: top;
+	text-align: center;
+/*	border-left: 3px solid black;*/}
 
 .sectionTitle{
-	font-size: 30px;
-	border: 3px solid purple;
+	font-size: 40px;
+	padding: 1px 1px 1px 1px;
+/*	border: 3px solid purple;
 	padding: 1px;
 	margin: 10px 500px 1px 500px;
-	text-align: center;
+	text-align: center;*/
 }
 
 #special{
-	font-size: 20px;
-	border: 3px solid brown;
-	margin: 10px 500px 1px 500px;
-	text-align: center;
+	font-size: 30px;
+	padding: 1px 1px 1px 1px;
 }
 
 /*.content{
@@ -118,7 +139,8 @@ img.resize {
 }*/
 
 #menu{
-
+	padding-top: 100px;
+	text-align: center;
 }
 
 #subscribe{
