@@ -5,14 +5,13 @@ body{
 li {
     list-style-type: none;
     margin: 0;
-    padding: 0;
 /*    display: inline;*/
 /*	padding: 10px 10px 10px 100px;*/
-	margin: 10px 10px 10px 10px;
+	margin: px 10px 10px 10px;
 }
 
 .resize {
-		-webkit-animation: rotation 10s /*infinite linear*/;
+		-webkit-animation: rotation 4s infinite linear;
 }
 
 @-webkit-keyframes rotation {
@@ -22,6 +21,25 @@ li {
 		to {
 				-webkit-transform: rotate(359deg);
 		}
+}
+
+.resize2 {
+		-webkit-animation: rotation 4s infinite linear;
+}
+
+.jet{
+	opacity: 0.80;
+	-moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    width: 40%;
+    height: 40%;
+/*    border: 3px solid black;*/
+	margin-left: 29%;
+	margin-top: 40px;
 }
 
 #name{
@@ -62,20 +80,36 @@ li {
 	border-top: 3px solid red;
 	border-radius: 10px;
 	text-align: center;
-	font-size: 40px;
+	font-size: 23px;
 	margin: 10px 450px 1px 450px;
 	border-bottom: 3px solid red;
 /*	border-left: 3px solid orange;*/
 }
 
 img.resize {
-  width: 300px;
-  height: 300px;
-  padding-bottom: 60px;
-  padding-top: 70px;
+  width: 150px;
+  height: 150px;
+/*  padding-bottom: 50px;
+  padding-top: 50px;*/
   display: block;
   margin: 0 auto;
+  margin-top: -225px;
+  margin-right: -1px;
 /*  border: 3px solid black;*/
+  border-radius: 100px;
+}
+
+img.resize2 {
+	width: 150px;
+  	height: 150px;
+/*  padding-bottom: 50px;
+  padding-top: 50px;*/
+ 	display: block;
+/*  	margin: 0 auto;*/
+  	margin-top: -150px;
+  	margin-right: -1px;
+/*  border: 3px solid black;*/
+  	border-radius: 100px;
 }
 
 a:link{
@@ -94,20 +128,12 @@ a:hover{
 /*	display: inline-block;*/
 	margin-top: -350px;
 	margin-bottom: 70px;
-	margin-right: 1200px;
-	padding: 10px 1px 10px 10px;
-	vertical-align: top;
-/*	border-left: 3px solid black;*/
+	margin-right: 1000px;
+	margin-left: 200px;
+	padding: 10px 20px 10px 10px;
 }
 
 
-.sectionTitle{
-	transition: all .2s ease-in-out;
-}
-
-.sectionTitle:hover{
-	transform: scale(1.1);
-}
 
 #today{
 	border-top: 3px solid purple;
@@ -115,12 +141,12 @@ a:hover{
 	border-radius: 10px;
 /*	border: 3px solid blue;*/
 /*	display: inline-block;*/
-	margin-top: -300px;
+	margin-top: -250px;
 	margin-bottom: 70px;
-	margin-right: 100px;
-	margin-left: 1050px;
-	padding: 1px 1px 1px 1px;
-	vertical-align: top;
+	margin-right: 200px;
+	margin-left: 1000px;
+	padding-top: -60px;
+/*	vertical-align: top;*/
 	text-align: center;
 /*	border-left: 3px solid black;*/}
 
@@ -128,35 +154,48 @@ a:hover{
 	border-top: 3px solid purple;
 	border-bottom: 3px solid purple;
 	border-radius: 10px;
+	margin-top: 15px;
+	margin-right: 320px;
+	margin-left: 320px;
+	padding-left: 10px;
+	padding-right: 10px;
 /*	font-size: 40px;*/
-	padding: 1px 100px 1px 100px;
-	margin: 10px 500px 25px 500px;
-	text-align: center;
-	font-size: 75px;
+/*	padding: 1px 100px 1px 100px;
+	margin: 10px 500px 25px 500px;*/
+/*	text-align: center;*/
+	font-size: 70px;
 }
 
-#special{
+.sectionTitle2{
+	border-top: 3px solid purple;
+	border-bottom: 3px solid purple;
+	border-radius: 10px;
+/*	font-size: 40px;*/
+/*	padding: 1px 100px 1px 100px;
+	margin: 10px 500px 25px 500px;*/
+/*	text-align: center;*/
+	font-size: 70px;
+}
+
+/*#special{
 	font-size: 30px;
-	padding: 1px 1px 1px 1px;
-}
-
-/*.content{
-	border: 3px solid blue;
 }*/
 
 #menu{
-	padding-top: 100px;
+	padding-top: 50px;
+	margin-right: 40%;
 	text-align: center;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 }
 
 .pizza{
 	border: 3px solid black;
 	padding-bottom: 1px;
-	border-radius: 80px;
+	border-radius: 40px;
 	margin-bottom: 15px;
-	margin-right: 22%;
-	margin-left: 22%;
+	margin-right: 35%;
+	margin-left: 35%;
+	font-size: 15px;
 }
 
 .pizzaName{
@@ -167,17 +206,24 @@ a:hover{
 	transform: scale(1.4);
 }
 
+
+
+
 #subscribe{
 	border-top: 3px solid purple;
 	border-bottom: 3px solid purple;
 	border-radius: 10px;
-	border: 3px solid black;
 	text-align: center;
+	margin-left: 1000px;
+/*	margin-right: 100px;*/
+	margin-top: -1100px;
+	margin-bottom: 700px;
+	padding-right: 1000px;
 }
 
-#deal{
+/*#deal{
 	border: 3px solid blue;
-}
+}*/
 
 #visit{
 	border: 3px solid pink;
