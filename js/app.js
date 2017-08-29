@@ -9,22 +9,21 @@ var pizzaList = [
 	{pizzaName: "Tex Mex",description: "Build pizzas not walls is the theme for this mex. We draw inspiration from your local cantina to create this masterpiece.",price: 21.21}];
 
 
+
+
+
+
+
 var changePizza = document.getElementById("special");
 var x = Math.floor((Math.random() * 3));
 changePizza.innerHTML = pizzaList[x].pizzaName;
 
-
 for(var i = 0; i < pizzaList.length; i++){
 	var newPizzaName = document.getElementsByClassName("pizzaName");
 	newPizzaName[i].innerHTML = pizzaList[i].pizzaName;
-}
-
-for(var i = 0; i < pizzaList.length; i++){
 	var pizzaDescription = document.getElementsByClassName("description");
 	pizzaDescription[i].innerHTML = pizzaList[i].description;
-}
-
-for(var i = 0; i < pizzaList.length; i++){
 	var newPrice = document.getElementsByClassName("price");
 	newPrice[i].innerHTML = pizzaList[i].price;
 }
+
